@@ -1,0 +1,493 @@
+
+
+	body::-webkit-scrollbar{
+		display: none;
+	}
+	.nav{
+		position: absolute;
+	    background-color: #060d17;
+	    margin-top: -20px;
+	    display: inline;
+	    width: 100%;
+	    height: 50px;
+
+	}
+  
+    .ul{
+    	display: flex;
+    	list-style-type: none;
+    }
+
+    li{
+    	margin-top: -105px;
+    	padding: 110px;
+    	font-size: 20px;
+    }
+    a{  
+    	margin-top: 10px;
+    	text-decoration: none;
+    	color: #999c9f;
+    }
+/*
+.ul a:hover{
+	border: 2px solid  greenyellow;
+	border-radius: 20px;
+	padding: 5px;
+	background-color: greenyellow;
+}
+*/
+.ul a:visited{
+	color: #999c9f;
+}
+
+    .logo{
+    	margin-left: -60px;
+    	margin-top: -9px;
+      
+    }
+
+    .hh{margin-top: -10px;
+    	height: 60px;
+    	width: 60px;
+    	border-radius:40px ;
+    object-fit: contain;
+    }
+
+
+.ul a:hover{
+	border: 2px solid  greenyellow;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: greenyellow;
+}
+
+.ul a:visited{
+	color: midnightblue;
+}
+
+body{
+	background-image: url('https://www.justwatch.com/images/backdrop/301625182/s1440/1899.webp');
+      background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	background-color: #060d17;
+}
+.video{
+	width: 850px;
+	height: 499px;
+/*background-color: black;*/
+object-fit: contain;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 330px;
+/*	aspect-ratio:1600/900;	*/
+}
+
+.video video{
+	width: 100%;
+	height: 499px;
+}
+
+.intro{
+	display: inline-flex;
+	position: relative;
+	margin-top: 550px;
+	margin-left: 70px;
+	border-radius: 10px;
+/*	border: 2px solid red;*/
+background-color:  #060d17;
+width: 1400px;
+height: 1550px;
+}
+
+.img{
+	float: 	left;
+	width: 450px;
+margin-top: 20px;
+}
+
+.img img{
+
+/*		margin-left: 90px;*/
+		border-radius: 20px;
+}
+
+.name{
+/*	border: 2px solid black;*/
+	font-style: oblique;
+	float: left;
+	width: 1100px;
+	height: 1000px;
+	background-color: #060d17;
+    	border-radius: 10px;
+    margin-left: 60px;	
+}
+
+.name-info h5{
+	margin-top: -135px;
+	margin-left: 210px;
+	font-size: 40px;
+	color: #4c5a67;
+}
+.rate{
+/*	background-color: #060d17;*/
+	margin-top: -15px;
+	border-radius: 20px;
+/*display: flex;*/
+width: 340px;
+margin-left: 20px;
+}
+
+.rate h1{
+	font-size: 20px;
+color: #4c5a67;
+}
+
+.rate p{
+	color: #999c9f ;
+}
+.rate-img{
+/*	border: 2px solid red;*/
+display: flex;
+/*margin-left: 20px;*/
+/*background-color: skyblue;*/
+}
+
+.rate-img h1{
+	margin-top: 25px;
+
+}
+
+.rate-img-img{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.rating{
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.imdb{
+	margin-top: 22px;
+	margin-left: 16px;
+}
+
+.rating-imdb{
+	margin-top: 26px;
+	margin-left: 5px;
+	font-size: 20px;
+}
+.genre{
+font-size: 20px;
+display: flex;
+margin-top: -20px;
+}
+
+.genre p{
+	margin-top: 15px;
+	margin-left: 26px;
+}
+
+.runtime{
+	display: flex;
+}
+
+.runtime h1{
+	font-size: 19px;
+}
+.runtime p{
+	margin-top: 13px;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+.season1-img{
+	margin-top: -100px;
+}
+
+.episodes{
+/*	border: 2px solid greenyellow;*/
+}
+
+.epd-no{
+	display: block;
+	line-height: 15px;
+	margin-left: 20px;
+}
+
+.epd-no h1{
+	color: #999c9f;
+}
+
+.epd-no p{
+	color: #78a6b8;
+	font-size: 30px;
+	width: 160px;
+/*	margin-top: 35px;*/
+/*	margin-left: 20px ;*/
+}
+
+.epd-no p:hover{
+	cursor:	pointer;
+}
+.epd-no p::after{
+	content: "";
+}
+
+.epd-no p:hover::after{
+	display: block;
+	margin-top: 20px;
+
+}
+
+.epd-no1{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+.epd-no1 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+.epd-no1 p:hover::after{
+	content: "Maura helps a pregnant woman. The captain makes a brave decision after receiving a message from a lost ship — and discovers something mind-bending.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+.epd-no2 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no2{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no2 p:hover::after{
+	content: "The captain experiences unexplainable flashbacks. A strange man follows Maura to her cabin where a boy is hiding. A bug leads to a tragedy on deck.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+
+.epd-no3 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no3{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no3 p:hover::after{
+	content: "A girl and other passengers suffer a terrible fate. Olek frees Ling Yi from a box. The captain makes a discovery that challenges his trust in Maura.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+.epd-no4 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no4{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no4 p:hover::after{
+	content: "Several crew members and passengers search the ship for the boy after locking up the captain, Olek, Jérôme and Ramiro. Krester’s secret is revealed.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no5 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no5{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;}
+
+
+.epd-no5 p:hover::after{
+	content: "Maura has terrible flashbacks and makes a shocking move. A sound leads some passengers to jump overboard. Maura makes a discovery about her father.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+.epd-no6 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+.epd-no6{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no6 p:hover::after{
+	content: "Tove has scary flashbacks and wants to kill the boy. Daniel follows Maura and the captain into a strange place. Maura’s father appears with a message.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no7 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no7{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no7 p:hover::after{
+	content: "Daniel asks Maura for something she doesn’t understand. Olek and Ling Yi steer the ship before a tragedy occurs. Elliot’s identity comes to light.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no8 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+
+.epd-no8{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no8 p:hover::after{
+	content: "Maura tells the passengers an unbelievable truth. Then, their memories shift and Daniel changes a code. Maura faces an unexpected reality.";
+	font-size: 20px;
+	width: 700px;
+	color: #999c9f;	
+}
+
+.videos iframe{
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+
+	#slider{
+		overflow: hidden;
+		width: 600px;
+		height: 300px;
+		margin: 10px auto;
+		position: relative;
+		border: 1px solid  #999c9f;
+	}
+
+	#box{
+		display: inline-flex;
+	
+	    margin-left: 0px;
+		transition: all 10s ease-in;
+		animation: img 10s ease-in 2s infinite ;
+		animation-direction: alternate; 
+		animation-play-state: active;
+	}
+
+	#box .img1,.img2,.img3,.img01,.img21,.img4,.img5
+	{margin-top: -9px;
+		width: 200px;
+		height: 300px;
+	}
+
+
+	@keyframes img{
+ 	
+ 	0%{
+ 		margin-left: 0px;
+ 	}
+
+ 	25%{
+ 		margin-left: -200px;
+ 	}
+
+ 	50%{
+ 		margin-left: -400px;
+ 	}
+
+ 	75%{
+ 		margin-left: -600px;
+ 	}
+
+ 	100%{
+ 		margin-left: -800px;
+ 	}
+
+
+	}
+
