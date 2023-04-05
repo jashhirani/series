@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SERIES</title>
-<link rel="stylesheet" type="text/css" href="C:\Users\akshay h\AppData\Roaming\Sublime Text 3\Packages\User\series\css\HomePage.css">
+<link rel="stylesheet" type="text/css" href="series\css\HomePage.css">
 
 
 </head>
