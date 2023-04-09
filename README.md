@@ -48,7 +48,7 @@
 		<div class="series2-img">
 			<img src="https://flxt.tmsimg.com/assets/p17602726_b_v13_ab.jpg" class="img2">
              <div class="content">
-            	<a href="html/Manifest.html">MANIFEST</a>
+            	<a href="html\Manifest.html">MANIFEST</a>
             </div>
 		</div>
 		
