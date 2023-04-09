@@ -6,6 +6,495 @@
 	<title></title>
 </head>
 <link rel="stylesheet" type="text/css" href="css/Manifest.css">
+	<style>
+		body::-webkit-scrollbar{
+		display: none;
+	}
+	.nav{
+		position: absolute;
+	    background-color: #060d17;
+	    margin-top: -20px;
+	    display: inline;
+	    width: 100%;
+	    height: 7%;
+
+	}
+  
+    .ul{
+    	display: flex;
+    	list-style-type: none;
+    }
+
+    li{
+    	margin-top: -105px;
+    	padding: 110px;
+    	font-size: 20px;
+    }
+    a{  
+    	margin-top: 10px;
+    	text-decoration: none;
+    	color: #999c9f;
+    }
+
+
+.ul a:visited{
+	color: #999c9f;
+}
+
+    .logo{
+    	margin-left: -60px;
+    	margin-top: -9px;
+      
+    }
+
+    .hh{margin-top: -10px;
+    	height: 60px;
+    	width: 60px;
+    	border-radius:40px ;
+    object-fit: contain;
+    }
+
+
+.ul a:hover{
+	border: 2px solid  greenyellow;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: greenyellow;
+}
+
+.ul a:visited{
+	color: midnightblue;
+}
+
+body{
+	background-image: url('C:\\Users\\akshay h\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\series\\image\\jpg\\img9.jpg');
+      background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: lighten;
+	background-color: #060d17;
+/*	margin-top: -20px;*/
+}
+.videos{
+	width: 850px;
+	height: 499px;
+/*background-color: black;*/
+object-fit: contain;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 30px;
+/*	aspect-ratio:1600/900;	*/
+}
+
+.videos video{
+	width: 100%;
+	height: 499px;
+}
+
+.intro{
+	display: inline-flex;
+	position: relative;
+	margin-top: 550px;
+	margin-left: 70px;
+	border-radius: 10px;
+/*	border: 2px solid red;*/
+background-color:  #060d17;
+width: 1600px;
+height: 2550px;
+}
+img{
+/*	SameSite=None*/
+}
+.img{
+	float: 	left;
+	width: 450px;
+margin-top: 20px;
+}
+
+.img img{
+
+/*		margin-left: 90px;*/
+		border-radius: 20px;
+}
+
+.name{
+/*	border: 2px solid black;*/
+	font-style: oblique;
+/*	float: left;*/
+	width: 900px;
+	height: 1000px;
+	background-color: #060d17;
+    	border-radius: 10px;
+    margin-left: -750px;	
+    margin-top: 180px;
+}
+
+.name-info{
+display: flex;
+}
+
+.series_name{
+	margin-left: -40px;
+}
+
+h1 .seriesh1{
+	margin-left: -700px;
+}
+.series_name h5{
+	margin-top: -55px;
+	margin-left: 830px;
+	font-size: 60px;
+	color: #4c5a67;
+
+}
+
+
+
+.season2,.season3,.season4{
+margin-left: 30px;
+}
+
+.season1 img,.season2 img,.season3 img,.season4 img{
+	border-radius: 10px;
+}
+
+.rate{
+/*	background-color: #060d17;*/
+	margin-top: -15px;
+	border-radius: 20px;
+/*display: flex;*/
+width: 340px;
+margin-left: 20px;
+}
+
+.rate h1{
+	font-size: 20px;
+color: #4c5a67;
+}
+
+.rate p{
+	color: #999c9f ;
+}
+.rate-img{
+/*	border: 2px solid red;*/
+display: flex;
+/*margin-left: 20px;*/
+/*background-color: skyblue;*/
+}
+
+.rate-img h1{
+	margin-top: 25px;
+
+}
+
+.rate-img-img{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.rating{
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.imdb{
+	margin-top: 22px;
+	margin-left: 16px;
+}
+
+.rating-imdb{
+	margin-top: 26px;
+	margin-left: 5px;
+	font-size: 20px;
+}
+.genre{
+font-size: 20px;
+display: flex;
+margin-top: -20px;
+}
+
+.genre p{
+	margin-top: 15px;
+	margin-left: 26px;
+}
+
+.runtime{
+	display: flex;
+}
+
+.runtime h1{
+	font-size: 19px;
+}
+.runtime p{
+	margin-top: 13px;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+.season1-img{
+	margin-top: -100px;
+}
+
+.episodes{
+/*	border: 2px solid greenyellow;*/
+}
+
+.epd-no{
+	display: block;
+	line-height: 15px;
+	margin-left: 20px;
+}
+
+.epd-no h1{
+	color: #999c9f;
+}
+
+.epd-no p{
+	color: #78a6b8;
+	font-size: 30px;
+	width: 350px;
+/*	margin-top: 35px;*/
+/*	margin-left: 20px ;*/
+}
+
+.epd-no p:hover{
+	cursor:	pointer;
+}
+.epd-no p::after{
+	content: "";
+	line-height: 20px;
+}
+
+.epd-no p:hover::after{
+	display: block;
+	margin-top: 20px;
+
+}
+
+.epd-no1 p, .epd-no2 p,.epd-no3 p,.epd-no4 p,.epd-no5 p,.epd-no6 p,.epd-no7 p,.epd-no8 p,.epd-no9 p,.epd-no10 p,.epd-no11 p,.epd-no12 p,.epd-no13 p,.epd-no14 p,.epd-no15 p,.epd-no16 p{
+	margin-top: -35px;
+    margin-left: 120px;
+}
+
+.epd-no1,.epd-no2,.epd-no3,.epd-no4,.epd-no5,.epd-no6,.epd-no7,.epd-no8,.epd-no9,.epd-no10,.epd-no11,.epd-no12,.epd-no13,.epd-no14,.epd-no15,.epd-no16{
+
+	border-bottom: 2px solid grey;
+	height: 2px;	
+	width: 10px;
+	margin-left: 100px;
+display: inline;
+}
+
+
+.epd-no1 p:hover::after{
+	content: "When Flight 828 lands in New York, Michaela and Ben Stone and the other passengers learn that years have passed, but they haven't aged a day. They reunite with loved ones, piece together their old lives and deal with mysterious voices in their heads.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+.epd-no2 p:hover::after{
+	content: "The passengers from Flight 828 find themselves under government scrutiny as they struggle to resume their lives. Michaela is forced to confront the fact that Jared is married to her once-best friend, while Ben tries to help a fellow passenger reconnect with his son. Cal is approached by an obsessive stranger, as Grace and Olive disagree on whether or not to reveal a devastating secret";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no3 p:hover::after{
+	content: "Ben and Michaela investigate a shocking murder in fear that it's connected to Flight 828. Meanwhile, Ben struggles to accept the life Grace led in his absence, while Olive and Cal realize that being twins after five and a half years apart is harder than they thought.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no4 p:hover::after{
+	content: "Michaela and Saanvi have a similar vision, but it takes them some trial, error and teamwork to heed the call; Jared takes the fall for Michaela's misstep at work; Ben comes face-to-face with the man who replaced him.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no5 p:hover::after{
+	content: "Flashbacks reveal how Grace, Olive and Jared coped with the loss of their loved ones after the disappearance of Flight 828; Ben tries to escape the voice in his mind by going on an adventure with Cal; Michaela struggles with her feelings for Jared.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no6 p:hover::after{
+	content: "When Cal wakes with a life-threatening fever, Grace worries it's a side-effect of his experimental cancer treatment, but Michaela and Ben suspect Cal's condition may be related to a mysterious passenger from Flight 828. As Cal's situation worsens, Ben and Michaela attempt to track down the now-missing passenger.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no7 p:hover::after{
+	content: "With the detained passengers secretly moved and subjected to painful experimentation - and Cal's health directly linked to them - Ben takes advantage of an old friend to find out where the passengers were taken. Meanwhile, a mysterious new version of the calling pulls Michaela into a murder investigation that has deep personal ramifications for her.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no8 p:hover::after{
+	content: "Ben forms an unlikely partnership with Vance in a high-stakes race to locate the missing passengers of Flight 828. Meanwhile, Michaela helps a suicidal passenger who believes he is the Angel of Death, and Cal goes back to school, navigating both his unwanted celebrity and his former friends, who are all now 16 years old.";
+	font-size: 20px;
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no9 p:hover::after{
+	content: "When Ben and Michaela put everything on the line to save the other missing passengers, the mission goes horribly awry and not everyone makes it out alive. The devastating result pushes Ben and Grace to a traumatic brink, while pulling Michaela and Jared dangerously close together.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no10 p:hover::after{
+	content: "Michaela's mystifying, next-level calling launches her on a mission that brings her relationship with Jared to a head. Determined to protect his family, Ben explores an alternate meaning to Michaela's calling that leads him to a new alliance and a powerful new adversary. Cal's struggle with Ben's absence from home forces the Stones into an agonizing confrontation that could alter the family's fabric forever.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no11 p:hover::after{
+	content: "Willing to follow any lead to keep his son safe from The Major, Ben heeds Cal's calling to help Captain Daly clear his name for what happened to Flight 828. The journey uncovers a seeming conspiracy that stems all the way back to the day the plane disappeared. Meanwhile, Michaela assists Autumn in her own journey of redemption.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no12 p:hover::after{
+	content: "When Cal is discovered missing from his bedroom, Grace and Ben launch a desperate search which takes them to the remote mountains of upstate New York. A tantalizing trail of breadcrumbs leads them to a startling, game-changing discovery. Meanwhile, Michaela confronts the deceptive Autumn, and the shadowy ""Major"" finally makes an appearance.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no13 p:hover::after{
+	content: "Michaela uses her skills as a detective to find out more about Zeke, a hiker who disappeared in 2017 and may be one of them. Ben's family is impacted as public disdain for the passengers of Flight 828 rises.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no14 p:hover::after{
+	content: "When Saanvi goes missing, Ben suspects a fanatical group who have become obsessed with the passengers from Flight 828. Michaela must face the consequences of her reunion with Jared. Zeke returns to New York and has an ominous calling.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+.epd-no15 p:hover::after{
+	content: "Another non-passenger appears to have come back from the dead, and Ben, Michaela and Saanvi want to know why now and why him. This mystery-man is also having callings. Saanvi experiences PTSD.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f	;	
+}
+
+.epd-no16 p:hover::after{
+	content: "Michaela, Ben, Zeke and Saanvi all have the same calling. After another panic attack, Saanvi is finally ready to see a therapist, but it may not be what's best for her. An ominous new link appears between Griffin and the 828 passengers.";
+	font-size: 20px;
+/*	border: 2px solid red;*/
+	width: 700px;
+	color: #999c9f;	
+}
+
+
+.videos iframe{
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+
+	#slider{
+		overflow: hidden;
+		width: 600px;
+		height: 300px;
+		margin-left: 30px;
+		margin-top: 20px;
+		position: relative;
+		border: 1px solid  #999c9f;
+	}
+
+	#box{
+		display: inline-flex;
+	
+	    margin-left: 0px;
+		transition: all 10s ease-in;
+		animation: img 10s ease-in 2s infinite ;
+		animation-direction: alternate; 
+		animation-play-state: active;
+	}
+
+	#box .img1,.img2,.img3,.img01,.img21,.img4,.img5
+	{margin-top: -5px;
+		width: 200px;
+		height: 300px;
+	}
+
+
+	@keyframes img{
+ 	
+ 	0%{
+ 		margin-left: 0px;
+ 	}
+
+ 	25%{
+ 		margin-left: -200px;
+ 	}
+
+ 	50%{
+ 		margin-left: -400px;
+ 	}
+
+ 	75%{
+ 		margin-left: -600px;
+ 	}
+
+ 	100%{
+ 		margin-left: -800px;
+ 	}
+
+
+	}
+
+.cast{
+	width: 1200px;
+}
+.cast h1{
+color:#4c5a67
+}
+.cast_name{
+	margin-top: -20px;
+	font-size: 19px;
+	border-spacing: 8px;
+
+}
+
+.cast1{
+color: #78a6b8;
+} 
+
+.cast2{
+color: #999c9f;
+}
+	</style>
 <body>
 	<nav class="nav">
 	
